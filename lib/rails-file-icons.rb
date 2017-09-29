@@ -8,7 +8,7 @@ module Icon
     ifo indd iso jar jpeg jpg lnk log m4a m4b m4p m4v mcd mdb mid mov mp2 mp4
     mpeg mpg msi mswmm ogg pdf png pps ppt pptx ps psd pst ptb pub qbb qbw qxd ram
     rar rm rmvb rtf sea ses sit sitx ss swf tgz thm tif tmp torrent ttf txt
-    vcd vob wav wma wmv wps xls xlsx xpi zip
+    vcd vob wav webm wma wmv wps xls xlsx xpi zip
     }.inject({}) do |known_extensions, ext|
       known_extensions[ext] = "fileicons/file_extension_#{ext}.png"
       known_extensions
